@@ -6,8 +6,8 @@
     <title>Iedge Infotech - Elevate Your Skills</title>
     <style>
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
             color: #333;
@@ -18,63 +18,95 @@
             padding: 20px;
         }
         header {
-            background-color: #002147;
+            background: linear-gradient(135deg, #0f4b6e, #004a6b);
             color: white;
-            padding: 20px 0;
+            padding: 40px 0;
             text-align: center;
+            border-bottom: 5px solid #005792;
         }
         .header-title {
-            font-size: 3em;
+            font-size: 4em;
             margin: 0;
-            font-weight: bold;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
         }
         .header-subtitle {
-            font-size: 1.5em;
+            font-size: 1.8em;
             margin: 0;
+            font-weight: 300;
+            margin-top: 10px;
         }
         .cta-buttons {
-            margin: 30px 0;
+            margin: 40px 0;
             text-align: center;
         }
         .cta-buttons a {
-            background-color: #002147;
+            background-color: #004a6b;
             color: white;
-            padding: 15px 25px;
+            padding: 15px 30px;
             margin: 10px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 30px;
             display: inline-block;
-            font-size: 1.1em;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
         .cta-buttons a:hover {
-            background-color: #001030;
+            background-color: #00354a;
+            transform: scale(1.05);
         }
         .courses, .testimonials {
-            background-color: white;
-            padding: 30px;
+            background: white;
+            padding: 40px;
             margin: 30px 0;
-            border-radius: 5px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
         }
         .course, .testimonial {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .courses img {
             width: 100%;
             height: auto;
-            border-radius: 5px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border: 5px solid #004a6b;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #004a6b;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 1.8em;
+            color: #004a6b;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
             margin-bottom: 20px;
         }
+        .testimonial p {
+            font-style: italic;
+            color: #555;
+        }
         footer {
-            background-color: #333;
+            background-color: #002147;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 30px 0;
             margin-top: 30px;
+            border-top: 5px solid #004a6b;
+        }
+        footer p {
+            margin: 10px 0;
         }
         footer a {
             color: #1e90ff;
             text-decoration: none;
+            font-weight: 500;
         }
         footer a:hover {
             text-decoration: underline;
@@ -90,16 +122,14 @@
     </header>
 
     <div class="container">
-        
+        <div class="cta-buttons">
+            <a href="tel:+91 95792 80317">Call Now</a>
+          
+        </div>
 
         <div class="courses">
-            <h3>
-            <p>Follow us on LinkedIn: <a href="https://www.linkedin.com/in/swapneeldeshpande/">Swapneel Deshpande</a></p>
-            <p>Contact us: ++91 95792 80317 </p>
-            </h3>
             <h2>Our Courses</h2>
             <img src="https://raw.githubusercontent.com/swapneeld/iedgeinfotech/trainingcourses/docs/assets/sample-course-image.jpg" alt="Courses">
-           
             <div class="course">
                 <h3>Mastering Git</h3>
                 <p>Gain comprehensive knowledge of Git, the leading version control system used in modern software development. This course boosts your confidence by providing hands-on experience in version control.</p>
@@ -132,7 +162,7 @@
 
     <footer>
         <div class="container">
-            <p>Contact us: ++91 95792 80317 </p>
+            <p>Contact us: +91 95792 80317 </p>
             <p>Follow us on LinkedIn: <a href="https://www.linkedin.com/in/swapneeldeshpande/">Swapneel Deshpande</a></p>
         </div>
     </footer>
