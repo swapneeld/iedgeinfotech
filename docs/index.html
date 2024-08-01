@@ -6,8 +6,8 @@
     <title>Iedge Infotech - Elevate Your Skills</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f9f9f9;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
             color: #333;
@@ -18,49 +18,60 @@
             padding: 20px;
         }
         header {
-            background: linear-gradient(135deg, #0f4b6e, #004a6b);
+            background: linear-gradient(180deg, #003366, #004080);
             color: white;
             padding: 40px 0;
             text-align: center;
-            border-bottom: 5px solid #005792;
+            border-bottom: 4px solid #0056a0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         .header-title {
-            font-size: 4em;
+            font-size: 2.8em; /* Reduced font size for a more elegant look */
             margin: 0;
             font-weight: 700;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
         }
         .header-subtitle {
-            font-size: 1.8em;
+            font-size: 1.4em; /* Slightly smaller subtitle for a balanced look */
             margin: 0;
             font-weight: 300;
             margin-top: 10px;
+            line-height: 1.4;
         }
         .cta-buttons {
             margin: 40px 0;
             text-align: center;
         }
         .cta-buttons a {
-            background-color: #004a6b;
+            background-color: #0056a0;
             color: white;
-            padding: 15px 30px;
+            padding: 15px 35px;
             margin: 10px;
             text-decoration: none;
             border-radius: 30px;
             display: inline-block;
             font-size: 1.2em;
+            font-weight: 600;
             transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         .cta-buttons a:hover {
-            background-color: #00354a;
+            background-color: #004080;
             transform: scale(1.05);
+        }
+        .cta-buttons .phone-number {
+            font-size: 1.2em;
+            color: #ffffff;
+            margin: 10px 0;
+            display: block;
+            font-weight: 600;
         }
         .courses, .testimonials {
             background: white;
             padding: 40px;
             margin: 30px 0;
             border-radius: 10px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.1);
         }
         .course, .testimonial {
             margin-bottom: 30px;
@@ -70,18 +81,19 @@
             height: auto;
             border-radius: 10px;
             margin-bottom: 20px;
-            border: 5px solid #004a6b;
+            border: 5px solid #004080;
         }
         h2 {
-            font-size: 2.5em;
+            font-size: 2.8em;
             margin-bottom: 20px;
-            color: #004a6b;
-            font-weight: 600;
+            color: #003366;
+            font-weight: 700;
         }
         h3 {
-            font-size: 1.8em;
-            color: #004a6b;
+            font-size: 1.9em;
+            color: #003366;
             margin-bottom: 10px;
+            font-weight: 600;
         }
         p {
             font-size: 1.1em;
@@ -93,12 +105,12 @@
             color: #555;
         }
         footer {
-            background-color: #002147;
+            background-color: #003366;
             color: white;
             text-align: center;
             padding: 30px 0;
             margin-top: 30px;
-            border-top: 5px solid #004a6b;
+            border-top: 4px solid #004080;
         }
         footer p {
             margin: 10px 0;
@@ -118,18 +130,28 @@
         <div class="container">
             <h1 class="header-title">Welcome to Iedge Infotech</h1>
             <p class="header-subtitle">Empower Your Future with Our Advanced Training Programmes</p>
+            <p class="header-subtitle"> Address: Signal Camp Latur 413512        </p>
+           <p class="header-subtitle"> <span class="phone-number">call now tel:+91 95792 80317</span></p>
+            
         </div>
     </header>
 
     <div class="container">
-        <div class="cta-buttons">
-            <a href="tel:+91 95792 80317">Call Now</a>
-          <span class="phone-number">+1234567890</span>
+  <div class="testimonials">
+            <h2>Learn SKills which collage wont teach you</h2>
+            <div class="testimonial">
+                <p>"Here, we provide training from industry experts with over 20 years of experience "</p>
+            </div>
+            <div class="testimonial">
+                <p>"The courses provided the perfect blend of personalised attention and real-world application. Highly recommended!"</p>
+                <p>- Another Satisfied Student</p>
+            </div>
         </div>
 
         <div class="courses">
+            
             <h2>Our Courses</h2>
-            <img src="https://github.com/swapneeld/iedgeinfotech/blob/trainingcourses/docs/assets/csnapshot.png" alt="Courses">
+            <img src="https://raw.githubusercontent.com/swapneeld/iedgeinfotech/trainingcourses/docs/assets/sample-course-image.jpg" alt="Courses">
             <div class="course">
                 <h3>Mastering Git</h3>
                 <p>Gain comprehensive knowledge of Git, the leading version control system used in modern software development. This course boosts your confidence by providing hands-on experience in version control.</p>
